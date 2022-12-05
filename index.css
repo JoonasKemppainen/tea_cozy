@@ -1,0 +1,138 @@
+body, html {
+    background-color: black;
+    opacity: 0.9;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    font-size: 22px;
+    text-align: center;
+    margin: 0;   
+}
+
+/* HEADER */
+
+.header-logo img {
+    height: 50px;
+    float: left;
+    padding: 10px;
+}
+
+.header-links {
+    padding-right: 10px;
+    width: 100%;
+    text-align: right;
+}
+
+.header-links ul {
+    overflow: hidden;
+}
+
+.header-links li {
+    display: inline;
+    padding-left: 20px;
+}
+
+.header-links a {
+    color: seashell;
+    text-decoration: underline;  
+}
+
+#header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    border-bottom: solid 1px seashell;
+    height: 69px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* MISSION */
+
+.mission-text {
+    background-color: black;
+    position: relative;
+    top: 40%;
+}
+
+.mission-text h2 {
+    padding-top: 10px;
+}
+
+.mission-text h4 {
+    padding-bottom: 10px;
+}
+
+#mission {
+    background-image: url("./images/img-mission-background.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    height: 700px;
+    margin: 70px auto 0;
+
+}
+
+/* FEATURED */
+
+.featured-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured-item img {
+    width: 300px;
+    margin: 0 10px;
+}
+
+.featured-item h4 {
+    margin: 10px 0 20px;
+}
+
+#featured {
+    margin: auto;
+    max-width: 1000px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* LOCATIONS */
+
+.location-text h2 {
+    margin: 0;
+}
+
+.locations-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    margin: 15px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#locations {
+    background-image: url("./images/img-locations-background.webp");
+    background-position: center;
+    margin: auto;
+    min-height: 500px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* FOOTER */
+
+#copywright {
+    float: left;
+    padding-left: 20px;
+}
